@@ -3,11 +3,13 @@ import React from 'react'
 import Styled from 'styled-components/native'
 
 // components
-import Router from '../../navigation'
+import Router from '../../navigation/navigation'
+import Navbar from '../../components/Navbar'
 
 export default () => {
     return (
         <App.Layout>
+            <Navbar />
             <App.Body>
                 <Router />
             </App.Body>
