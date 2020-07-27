@@ -12,14 +12,14 @@ export default () => {
 
 const Home = {
     Layout: Styled.View`
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background-color: pink;
-        flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+    flex: 1;
   `,
     Title: Styled.Text`
-        font-size: ${(props) => props.theme.font.size.medium};
+    font-size: ${(props) => props.theme.font.size.medium};
   `,
 }

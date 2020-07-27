@@ -19,12 +19,12 @@ export default () => {
 
 const App = {
     Layout: Styled.View`
-        display: flex;
-        flex: 1;
-        flex-direction: column;
-        background-color: ${(props) => props.theme.colors.light['shade-1']};
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: ${(props) => props.theme.colors.light['shade-1']};
   `,
     Body: Styled.View`
-        flex: 1;
+    flex: 1;
   `,
 }

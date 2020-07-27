@@ -25,37 +25,36 @@ export default () => {
 
 const Navbar = {
     Wrapper: Styled.View`
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        height: 80px;
-        width: 100%;
-        position: relative;
-        
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    position: relative;
   `,
     Layout: Styled.View`
-        display: flex;
-        flex-direction: row;
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        align-items: center;
-        justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
   `,
     IconWrapperLeft: Styled.TouchableOpacity`
-        margin-left: 15px;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: center;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
   `,
     IconWrapperRight: Styled.TouchableOpacity`
-        margin-right: 15px;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        align-items: center;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
   `,
 }
