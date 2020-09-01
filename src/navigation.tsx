@@ -5,16 +5,16 @@ import { createStackNavigator } from '@react-navigation/stack'
 
 // views
 import Home from './views/Home'
-import About from './views/About'
+import Onboarding from './views/Onboarding'
 
 const Stack = createStackNavigator()
 
 export default () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator headerMode={'none'} initialRouteName="Home">
+      <Stack.Navigator headerMode={'none'} initialRouteName="Onboarding">
         <Stack.Screen name="Home" component={Home} />
-        <Stack.Screen name="About" component={About} />
+        <Stack.Screen name="Onboarding" component={Onboarding} />
       </Stack.Navigator>
     </NavigationContainer>
   )

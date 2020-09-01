@@ -2,19 +2,24 @@
 import React from 'react'
 import Styled from 'styled-components/native'
 
-export default () => {
+interface NodeProps {
+  nodeID: string
+}
+
+export default ({ nodeID }: NodeProps) => {
   return (
-    <About.Layout>
-      <About.Title>About Component</About.Title>
-    </About.Layout>
+    <Node.Layout>
+      <Node.Title>Home Component</Node.Title>
+    </Node.Layout>
   )
 }
 
-const About = {
+const Node = {
   Layout: Styled.View`
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   `,
   Title: Styled.Text`
     font-size: ${(props) => props.theme.font.size.medium};
